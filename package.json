@@ -1,0 +1,26 @@
+{
+  "name": "clasenode",
+  "version": "1.0.0",
+  "description": "Segunda version de clase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "Clase",
+    "Carmelo",
+    "Node",
+    "Npm",
+    "Ejs"
+  ],
+  "author": "Emma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

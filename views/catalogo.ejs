@@ -1,0 +1,34 @@
+<script src="/assets/js/catalogo.js"></script>
+
+<%- include('base/encabezado') %>
+<main class="m-5">
+        <section>
+            <h4 class="text-center mt-3">Productos</h4>
+            <div id="productos" class="container-fluid ms-5">
+            </div>
+        </section>
+</main>
+<div class="modal fade col-lg-6" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-inline-flex">
+                    <div id="imgCarrito" class="ms-5">
+
+                    </div>
+                    <div id="info" class="me-3">
+
+                    </div>
+                </div>
+                <div class="modal-footer" id="buttonA">
+
+                </div>
+            </div>
+        </div>
+</div>
+<%- include('base/footer') %>
+
