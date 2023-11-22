@@ -1,6 +1,7 @@
 const express = require('express')
+const { connect } = require('./db/conection')
 const app = express()
-const port = 9595
+const port = 9596   
 const path = require('path');
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')))
@@ -16,3 +17,5 @@ app.get('/catalogo', (req, res) => {
 app.listen(port, () => {
     console.log(`Escucha al port  ${port}`)
 })
+
+connect()
